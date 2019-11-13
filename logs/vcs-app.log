@@ -1,0 +1,26 @@
+2019-11-12 23:58:58,298 INFO c.g.v.VcsApplication [main] Starting VcsApplication on Sushobhits-Mac.local with PID 25107 (/Users/sushobhit/vcs-app/bin/main started by sushobhit in /Users/sushobhit/vcs-app)
+2019-11-12 23:59:08,464 DEBUG c.g.v.VcsApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-12 23:59:08,466 INFO c.g.v.VcsApplication [main] No active profile set, falling back to default profiles: default
+2019-11-13 00:00:43,956 INFO c.g.v.VcsApplication [main] Started VcsApplication in 128.303 seconds (JVM running for 184.96)
+2019-11-13 00:08:10,983 DEBUG c.g.v.c.VersionController [http-nio-9090-exec-1] Request received to modify text file
+2019-11-13 00:08:15,264 DEBUG c.g.v.s.VersionService [http-nio-9090-exec-1] {
+uuid=5dcaedb48f0ab67141bdb973, 
+latest=true, 
+fileName=my-file.txt, 
+content=Updated, 
+updatedAt=Tue Nov 12 23:06:52 IST 2019
+}
+2019-11-13 00:08:16,443 DEBUG c.g.v.s.VersionService [http-nio-9090-exec-1] {
+uuid=5dcaedb48f0ab67141bdb973, 
+latest=false, 
+fileName=my-file.txt, 
+content=Updated, 
+updatedAt=Tue Nov 12 23:06:52 IST 2019
+}
+2019-11-13 00:08:16,684 DEBUG c.g.v.c.VersionController [http-nio-9090-exec-1] Response : {
+uuid=5dcafc1836380b2d08a9970e, 
+latest=true, 
+fileName=my-file.txt, 
+content=, 
+updatedAt=Wed Nov 13 00:08:16 IST 2019
+}
