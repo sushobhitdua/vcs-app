@@ -44,3 +44,8 @@ $ tail -f  logs/vcs-app.log
 	http://localhost:9090/swagger-ui.html
 	http://localhost:9090/v2/api-docs
 
+![](/docs/1-vcs.png)
+![](/docs/2-vcs.png)
+![](/docs/3-vcs.png)
+![](/docs/4-vcs.png)
+![](/docs/5-vcs.png)
